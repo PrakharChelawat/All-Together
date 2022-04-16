@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+a{
+    color: black !important;
+}
+/* .page-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } */
+.read-more-link{
+    /* color: blue; */
+    /* text-decoration: underline; */
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+.brand-logo,h2{
+    font-family: 'Kalam', cursive;
+    
+}@media only screen and (min-width : 992px) {
+    .invesible-top {
+      top: 65px;
+    }
+  }
+
+
+.self2{
+    /* this class chenges font of Signin and Signup on Navbar */
+    font-family:'Noto Sans JP', sans-serif;
+}
+.self1{
+    margin-left: 100px;
+}
+.self3{
+    margin-left: 100px;
+}
+.footerr{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%
+}
+.mycard{
+    margin-top:30px;
+}
+.auth-card{
+    padding:20px;
+    
+    margin: 10px auto;
+    text-align:center;
+    max-width: 400px;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgba(8,93,252) !important;
+    box-shadow: 0 1px 0 0 rgb(8,93,252) i !important;
+  }
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgba(8,93,252) !important;
+    box-shadow: 0 1px 0 0 rgb(8,93,252) i !important;
+  }
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.item{
+    width:30%;
+}
+
+.home-card{
+    max-width: 500px;
+    height:max-content;
+    margin:26px auto;
+    
+}
+.input-filled{
+    max-width:400px;
+    margin:30px auto;
+    padding:20px;
+    text-align: center;
+}
+#toast-container{
+    top:30px !important;
+    right:20px !important;
+    left:auto !important; 
+}
